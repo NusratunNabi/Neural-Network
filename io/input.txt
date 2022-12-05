@@ -1,0 +1,6 @@
+import numpy as np
+import pandas as pd
+from sklearn import linear_model
+from google.colab import drive
+drive.mount(&#39;/content/drive&#39;)
+df = pd.read_csv(&#39;/content/C193255 - Sheet1.csv&#39;)
